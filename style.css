@@ -11,12 +11,18 @@
     margin: 0px;
   }
 
+<<<<<<< HEAD
   a{
     text-decoration:none;
   }
 
   #content{
     position: relative;
+=======
+  #content{
+    position: relative;
+    display: block;
+>>>>>>> origin/master
   }
 
   #wrapper{
@@ -33,9 +39,15 @@
 @media screen and (min-width: 1024px){
   .css-shapes-preview{ 
     float: right;
+<<<<<<< HEAD
     height: 200%; 
     width: 7%; 
     margin-right: 0%;
+=======
+    height: 100%; 
+    width: 101px; 
+    margin-left: 30%;
+>>>>>>> origin/master
     background-color: #FFFFFF; 
     border-left: 3px solid #A40021; 
     border-right: 3px solid #A40021; 
@@ -53,12 +65,15 @@
   padding: 30vh;
 }
 
+<<<<<<< HEAD
 #bottom{
   position: absolute;
   top: 110%;
   height:100%;
 }
 
+=======
+>>>>>>> origin/master
 ul{
   list-style-type: none;
   margin: 0;
@@ -73,11 +88,16 @@ li{
   border-bottom: 1px solid grey;
 }
 
+<<<<<<< HEAD
 .nav-link:hover{
+=======
+a:hover{
+>>>>>>> origin/master
   color: #ff4c4c;
   border-bottom: 1px solid #ff4c4c;
 }
 
+<<<<<<< HEAD
 .nav-link{
   color: black;
   text-decoration: none;
@@ -111,3 +131,9 @@ li{
   padding-top:5px;
   padding-bottom:5px;
 }
+=======
+a{
+  color: black;
+  text-decoration: none;
+}
+>>>>>>> origin/master
